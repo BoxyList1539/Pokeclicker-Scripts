@@ -177,7 +177,7 @@ function doAutoMine() {
                 } else if (mediumRestore > 0) {
                     ItemList["MediumRestore"].use();
                 } else {
-                    ItemList["SmallRestore"].use();
+                    ItemList["SmallRestore"].use(),
                 }
                 // Refresh energy count so we can use it immediately
                 getEnergy = Math.floor(App.game.underground.energy);
